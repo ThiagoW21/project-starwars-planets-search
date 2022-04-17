@@ -54,29 +54,31 @@ function Table() {
   }
 
   return (
-    <table>
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Rotatio Period</th>
-          <th>Orbital Period</th>
-          <th>Diameter</th>
-          <th>Climate</th>
-          <th>Gravity</th>
-          <th>Teerain</th>
-          <th>Surface Water</th>
-          <th>Population</th>
-          <th>Filme</th>
-          <th>Created</th>
-          <th>Edited</th>
-          <th>URL</th>
-        </tr>
-      </thead>
-      <tbody>
-        { data
-        && dataFiltered.map((planet, key) => <Row key={ key } planet={ planet } />) }
-      </tbody>
-    </table>
+    <div id="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Rotatio Period</th>
+            <th>Orbital Period</th>
+            <th>Diameter</th>
+            <th>Climate</th>
+            <th>Gravity</th>
+            <th>Teerain</th>
+            <th>Surface Water</th>
+            <th>Population</th>
+            <th>Filme</th>
+            <th>Created</th>
+            <th>Edited</th>
+            <th>URL</th>
+          </tr>
+        </thead>
+        <tbody>
+          { data
+          && dataFiltered.map((planet, key) => <Row key={ key } planet={ planet } />) }
+        </tbody>
+      </table>
+    </div>
   );
 }
 

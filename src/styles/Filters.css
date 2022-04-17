@@ -1,11 +1,9 @@
 header {
-  align-items: center;
   color: white;
-  display: flex;
-  flex-direction: column;
   justify-content: space-between;
   padding-top: 9px;
-  width: 100%;
+  width: 100vw;
+  overflow: auto;
 }
 
 header * {
@@ -19,6 +17,28 @@ header * {
   padding: 10px;
   width: 240px;
 }
+
+#input-filter-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#filters-container {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 420px) {
+  #filters-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  select {
+    width: 70vw;
+  }
+} 
+
 
 #input-number {
   border: 1px solid rgb(92, 76, 76);
