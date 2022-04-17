@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/project-starwars-planets-search/static/css/main.bdf6c3e4.chunk.css",
-    "main.js": "/project-starwars-planets-search/static/js/main.d6c5d11a.chunk.js",
-    "main.js.map": "/project-starwars-planets-search/static/js/main.d6c5d11a.chunk.js.map",
+    "main.css": "/project-starwars-planets-search/static/css/main.74e78ff3.chunk.css",
+    "main.js": "/project-starwars-planets-search/static/js/main.929ba5af.chunk.js",
+    "main.js.map": "/project-starwars-planets-search/static/js/main.929ba5af.chunk.js.map",
     "runtime-main.js": "/project-starwars-planets-search/static/js/runtime-main.af1aea79.js",
     "runtime-main.js.map": "/project-starwars-planets-search/static/js/runtime-main.af1aea79.js.map",
     "static/js/2.bda8ee4d.chunk.js": "/project-starwars-planets-search/static/js/2.bda8ee4d.chunk.js",
     "static/js/2.bda8ee4d.chunk.js.map": "/project-starwars-planets-search/static/js/2.bda8ee4d.chunk.js.map",
     "index.html": "/project-starwars-planets-search/index.html",
-    "precache-manifest.db6fbd84f18b16f7b6252f5e3e65cb9c.js": "/project-starwars-planets-search/precache-manifest.db6fbd84f18b16f7b6252f5e3e65cb9c.js",
+    "precache-manifest.d994e9174a42716507d75700102f550e.js": "/project-starwars-planets-search/precache-manifest.d994e9174a42716507d75700102f550e.js",
     "service-worker.js": "/project-starwars-planets-search/service-worker.js",
-    "static/css/main.bdf6c3e4.chunk.css.map": "/project-starwars-planets-search/static/css/main.bdf6c3e4.chunk.css.map",
+    "static/css/main.74e78ff3.chunk.css.map": "/project-starwars-planets-search/static/css/main.74e78ff3.chunk.css.map",
     "static/js/2.bda8ee4d.chunk.js.LICENSE.txt": "/project-starwars-planets-search/static/js/2.bda8ee4d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.af1aea79.js",
     "static/js/2.bda8ee4d.chunk.js",
-    "static/css/main.bdf6c3e4.chunk.css",
-    "static/js/main.d6c5d11a.chunk.js"
+    "static/css/main.74e78ff3.chunk.css",
+    "static/js/main.929ba5af.chunk.js"
   ]
 }
